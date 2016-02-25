@@ -2321,10 +2321,24 @@ pre .css ~ * .id {
 #toc li,
 .toc li {
   list-style-type: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+#toc li a,
+.toc li a {
+  text-decoration: none;
+  outline-width: 0;
+  color: #4ca0e4;
+  outline: none;
 }
 #toc ol {
   margin: 0;
 }
 #toc .toc-child {
   padding-left: 1.5em;
+}
+#toc .toc-text {
+  color: #4ca0e4;
 }
