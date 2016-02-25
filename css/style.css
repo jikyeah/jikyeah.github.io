@@ -2315,9 +2315,6 @@ pre .css ~ * .id {
   min-width: 200px;
   right: 80px;
 }
-#toc .toc {
-  padding: 0;
-}
 #toc li,
 .toc li {
   list-style-type: decimal;
@@ -2325,6 +2322,7 @@ pre .css ~ * .id {
   padding-bottom: 3px;
   vertical-align: middle;
   font-size: 12px;
+  color: #4ca0e4;
 }
 #toc li a,
 .toc li a {
